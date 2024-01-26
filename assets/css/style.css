@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 /* General styling */
 h1, h2, h3 {
   font-family: 'OPTIEngeEtienne', serif;
@@ -17,9 +23,7 @@ h1, h2, h3 {
 
 header {
   background-color: green;
-  padding: 0 1rem:
   width: 100%;
-  
 }
 
 header h1 {
@@ -33,17 +37,25 @@ header a {
   color: inherit;
 }
 
-#nav {
-  font-family: 'xiv', serif;
+/* Navbar styles and dropdown */
+nav {
   font-size: 1.5em;
   font-weight: 200;
+  top: 100%;
+}
+
+#nav-menu {
+  
 }
 
 /* Main Content */
 
 main {
-  width: 100%;
   background-color: blue;
+  /* Make main element take up any surplus space to push footer down */
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
 }
 
 #site-description {
@@ -52,7 +64,6 @@ main {
 
 /* Footer */
 footer {
-  width: 100%;
   background-color: red;
 }
 
