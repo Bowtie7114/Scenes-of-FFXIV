@@ -67,6 +67,10 @@ footer {
   background-color: red;
 }
 
+#socials {
+  
+}
+
 /* Media queries */
 /* Large or landscape phones greater than 575px */
 @media screen and (min-width: 576px) {
