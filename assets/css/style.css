@@ -35,3 +35,24 @@ header a {
 }
 
 /* Footer *
+
+/* Media queries */
+/* Large or landscape phones greater than 575px */
+@media screen and (min-width: 576px) {
+  
+}
+
+/* Tablets and screens larger than 767px */
+@media screen and (min-width: 768px) {
+  
+}
+
+/* Large laptops or desktops */
+@media screen and (min-width: 992px) {
+  
+}
+
+/* Extra large screens */
+@media screen and (min-width: 1200px) {
+  
+}
