@@ -12,5 +12,5 @@ This site is intended for any who may be interested in FFXIV, whether it is exis
 ### Content ###
 - Main title text downloaded from [dafont.com](https://www.dafont.com/final-fantasy.font)
 - Other font family downloaded from [FontMeme](https://fontmeme.com/fonts/enge-etienne-font/), created by OPTIFONT.
-- How to apply a downloaded font information checked via [StackOverflow](https://stackoverflow.com/questions/7961721/how-do-i-install-a-custom-font-on-an-html-site)
+
 ### Media ###
