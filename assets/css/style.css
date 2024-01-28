@@ -39,15 +39,29 @@ header a {
 
 /* Navbar styles and dropdown */
 nav {
-  font-size: 1.5em;
+  font-size: 1.15em;
   font-weight: 200;
   top: 100%;
   display: flex;
   justify-content: center;
+  padding: 5px 10px;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
 }
 
-#nav-menu {
-  
+nav ul {
+  list-style-type: none;
+  letter-spacing: 1px;
+}
+
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
 }
 
 /* Main Content */
