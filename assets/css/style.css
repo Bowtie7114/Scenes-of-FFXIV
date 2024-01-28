@@ -24,6 +24,8 @@ h1, h2, h3 {
 header {
   background-color: green;
   width: 100%;
+  position: fixed;
+  
 }
 
 header h1 {
@@ -39,6 +41,7 @@ header a {
 
 /* Navbar styles and dropdown */
 nav {
+  position: absolute;
   font-size: 1.15em;
   font-weight: 200;
   top: 100%;
@@ -46,6 +49,7 @@ nav {
   justify-content: center;
   padding: 5px 10px;
   box-shadow: 0 2px 2px #3a3a3a;
+  background-color: white;
   display: none;
 }
 
@@ -54,14 +58,22 @@ nav ul {
   letter-spacing: 1px;
 }
 
+#nav-menu > li {
+  margin-bottom: 1em;
+}
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
-    display: block;
+  display: block;
 }
 
 #nav-toggle {
-    display: none;
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 2rem;
+  padding: 0 .6rem;
 }
 
 /* Main Content */
