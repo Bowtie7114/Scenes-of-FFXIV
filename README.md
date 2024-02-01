@@ -6,6 +6,9 @@ This site is intended for any who may be interested in FFXIV, whether it is exis
 
 ## Testing ##
 
+### Bugs ###
+When styling the Store Page icons from Font Awesome (Steam and Meteor), using the 'i' attribute did not allow the colour to change as it did with the Socials icons. I had to use the 'a' attribute. This will not be looked into as it works and is a minor cosmetic issue.
+
 ## Deployment ## 
 
 ## Credits ##
