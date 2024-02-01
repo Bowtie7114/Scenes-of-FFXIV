@@ -83,6 +83,7 @@ main {
   /* Make main element take up any surplus space to push footer down */
   display: flex;
   flex: 1 0 auto;
+  margin-top: 132px;
   flex-direction: column;
 }
 
@@ -96,9 +97,26 @@ footer {
   justify-content: space-between;
 }
 
-#socials {
+#socials p {
+  padding-left: 8px;
+}
+
+#socials ul {
+  list-style-type: none;
   display: flex;
-  ;
+  height: 40px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+#socials li {
+  font-size: 1.2em;
+}
+
+#socials i {
+  color: black;
 }
 
 /* Media queries */
