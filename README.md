@@ -33,17 +33,17 @@ Coming Soon page
 
 ## Technologies ##
 - HTML
-  Used as the main language for the site.
+  <br> Used as the main language for the site.
 - CSS
-  Used to style the website via an external stylesheet.
+  <br> Used to style the website via an external stylesheet.
 - GitHub
-  Used as a repository to store site information and act as a hosting platform.
+  <br> Used as a repository to store site information and act as a hosting platform.
 - Git
-  Used to commit and push information to GitHub.
+  <br> Used to commit and push information to GitHub.
 - FontAwesome
-  Used to display symbols such as the burger icon, socials, and store pages icons.
+  <br> Used to display symbols such as the burger icon, socials, and store pages icons.
 - balsamiq
-  Used to create wireframe designs for website.
+  <br> Used to create wireframe designs for website.
 
 ## Testing ##
 
