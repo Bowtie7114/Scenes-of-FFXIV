@@ -19,9 +19,14 @@ Burger Icon selected
 Content pages
 <br>
 ![Desktop Content page](docs/readme_images/Desktop_content_wireframe.PNG)
-
+![Mobile Content page](docs/readme_images/Mobile_content_wireframe.PNG)
+Two images per block of information. On mobile, text is followed by both images.
 <br><br>
+
 Coming Soon page
+<br>
+![Desktop Coming Soon page](docs/readme_images/Desktop_soon_wireframe.PNG)
+![Mobile Coming Soon page](docs/readme_images/Mobile_soon_wireframe.PNG)
 
 ## Technologies ##
 - HTML
