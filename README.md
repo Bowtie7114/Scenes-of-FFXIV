@@ -12,6 +12,7 @@ Home page
 <br>
 ![Desktop Home page](docs/readme_images/Desktop_homepage_wireframe.PNG)
 ![Mobile Home page](docs/readme_images/mobile_homepage_wireframe.PNG)
+<br>
 Burger Icon selected
 ![Mobile Home page burger](docs/readme_images/Mobile_homepage_wireframe_menu.PNG)
 <br><br>
@@ -20,6 +21,7 @@ Content pages
 <br>
 ![Desktop Content page](docs/readme_images/Desktop_content_wireframe.PNG)
 ![Mobile Content page](docs/readme_images/Mobile_content_wireframe.PNG)
+<br>
 Two images per block of information. On mobile, text is followed by both images.
 <br><br>
 
