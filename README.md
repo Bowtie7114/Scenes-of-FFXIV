@@ -8,7 +8,10 @@ This site is intended for any who may be interested in FFXIV, whether it is exis
 
 ## Design ##
 ### Wireframe ###
+Home page
+<br>
 
+![Mobile Home page](doc/readme_images/mobile_homepage_wireframe.PNG)
 
 ## Technologies ##
 - HTML
