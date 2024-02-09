@@ -11,7 +11,7 @@ This site is intended for any who may be interested in FFXIV, whether it is exis
 Home page
 <br>
 
-![Mobile Home page](doc/readme_images/mobile_homepage_wireframe.PNG)
+![Mobile Home page](docs/readme_images/mobile_homepage_wireframe.PNG)
 
 ## Technologies ##
 - HTML
