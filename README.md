@@ -14,6 +14,7 @@ Home page
 ![Mobile Home page](docs/readme_images/mobile_homepage_wireframe.PNG)
 <br>
 Burger Icon selected
+<br>
 ![Mobile Home page burger](docs/readme_images/Mobile_homepage_wireframe_menu.PNG)
 <br><br>
 
