@@ -10,8 +10,18 @@ This site is intended for any who may be interested in FFXIV, whether it is exis
 ### Wireframe ###
 Home page
 <br>
-
+![Desktop Home page](docs/readme_images/Desktop_homepage_wireframe.PNG)
 ![Mobile Home page](docs/readme_images/mobile_homepage_wireframe.PNG)
+Burger Icon selected
+![Mobile Home page burger](docs/readme_images/Mobile_homepage_wireframe_menu.PNG)
+<br><br>
+
+Content pages
+<br>
+![Desktop Content page](docs/readme_images/Desktop_content_wireframe.PNG)
+
+<br><br>
+Coming Soon page
 
 ## Technologies ##
 - HTML
@@ -25,6 +35,8 @@ Home page
 
 ### Bugs ###
 When styling the Store Page icons from Font Awesome (Steam and Meteor), using the 'i' attribute did not allow the colour to change as it did with the Socials icons. I had to use the 'a' attribute. This will not be looked into as it works and is a minor cosmetic issue.
+<br>
+When creating wireframes, copying the mobile homepage facebook image changed it to a different facebook image on paste. Did not change as it does not affect functionality.
 
 ## Deployment ## 
 
