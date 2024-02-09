@@ -4,6 +4,20 @@ It will contain a number of in-game screenshots from these locations as well as 
 <br>
 This site is intended for any who may be interested in FFXIV, whether it is existing players, those who cannot play, who used to and wish for a feeling of nostalgia, or those who are on the fence and may want a closer look at some of the vistas that are on offer.
 
+## Features ##
+
+## Design ##
+### Wireframe ###
+
+
+## Technologies ##
+- HTML
+- CSS
+- GitHub
+- Git
+- FontAwesome
+- balsamiq
+
 ## Testing ##
 
 ### Bugs ###
