@@ -44,6 +44,8 @@ Coming Soon page
   <br> Used to display symbols such as the burger icon, socials, and store pages icons.
 - balsamiq
   <br> Used to create wireframe designs for website.
+- cloudconvert.com
+  <br> Used to convert hero and content images from .png to .webp.
 
 ## Testing ##
 
