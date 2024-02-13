@@ -60,5 +60,9 @@ When creating wireframes, copying the mobile homepage facebook image changed it 
 ### Content ###
 - Font family downloaded from [FontMeme](https://fontmeme.com/fonts/enge-etienne-font/), created by OPTIFONT.
 - [W3Schools](https://www.w3schools.com) for information on various HTML and CSS tips.
+- [Final Fantasy XIV Fan Kit site](https://na.finalfantasyxiv.com/lodestone/special/fankit/icon/) for various icons used as favicons and README title accompaniment. 
 
 ### Media ###
+
+FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.
+© SQUARE ENIX CO., LTD. All rights reserved. 
