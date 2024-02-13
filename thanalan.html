@@ -9,7 +9,7 @@
   <meta name="keywords" content="final fantasy, ffxiv, ff, landscape, vista, screenshot">
   <meta name="author" content="Jordan Cook" >
   <!-- Favicon -->
-  
+  <link rel="icon" href="assets/favicon/sightseeing_log.png">
   <!-- Stylesheet reference -->
   <link rel="stylesheet" href="assets/css/style.css">
   
@@ -19,13 +19,15 @@
 <body>
    <!-- Header -->
   <header>
+    <!-- Empty div to separate the header items for mobile devices -->
+    <div class="empty"></div>
     <h1><a href="index.html">Scenes of FFXIV</a></h1>
     <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
     <input type="checkbox" id="nav-toggle" name="nav-toggle">
     <nav>
       <ul id="nav-menu">
         <li><a href="index.html">Home</a></li>
-        <li><a href="thanalan.html">Thanalan</a></li>
+        <li class="active"><a href="thanalan.html">Thanalan</a></li>
         <li><a href="la-noscea.html">La Noscea</a></li>
         <li><a href="shroud.html">The Black Shroud</a></li>
         <li><a href="coming-soon.html">More to come!</a></li>
@@ -36,41 +38,42 @@
   
   <!-- Main -->
   <main>
-    <section id="site-description">
+    <div id="site-description">
       Main text
-    </section>
+    </div>
   </main>
   
   <!-- Footer -->
   <footer>
-    <section id="socials">
+    <div class="socials">
       <p>Find us on our socials!</p>
       <ul>
       <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens a new tab)">
-        <i class="fa-brands fa-square-facebook"></i></a>
+        <i class="fa-brands fa-facebook-f"></i></i></a>
         </li>
         <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens a new tab)">
-        <i class="fa-brands fa-square-instagram"></i></a>
+        <i class="fa-brands fa-instagram"></i></i></a>
         </li>
         <li><a href="https://www.reddit.com/r/ffxiv/" target="_blank" rel="noopener" aria-label="Visit FF 14 on Reddit (opens a new tab)">
-        <i class="fa-brands fa-square-reddit"></i></a>
+        <i class="fa-brands fa-reddit-alien"></i></a>
         </li>
         <li><a href="https://www.discord.com/" target="_blank" rel="noopener" aria-label="Visit our Discord channel (opens a new tab)">
         <i class="fa-brands fa-discord"></i></a>
         </li>
       </ul>
-    </section>
-    <section id="store-pages">
+    </div>
+    <div class="store-pages">
       <p>Check out our store pages!</p>
       <ul>
         <li><a href="https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/" target="_blank" rel="noopener" 
-              aria-label="Visit the Final Fantasy 14 Steam page (opens a new tab)" <i class="fa-brands fa-square-steam"></i></a>
+              aria-label="Visit the Final Fantasy 14 Steam page (opens a new tab)" 
+          <i class="fa-brands fa-steam-symbol"></i></a>
         </li>
         <li><a href="https://www.finalfantasyxiv.com/" target="_blank" rel="noopener" 
             aria-label="Visit the Final Fantasy 14 website (opens a new tab)" <i class="fa-sharp fa-solid fa-meteor"></i></a>
         </li>
       </ul>
-    </section>
+    </div>
   </footer>
   <!-- Font Awesome kit -->
   <script src="https://kit.fontawesome.com/5d2efa172e.js" crossorigin="anonymous"></script>
