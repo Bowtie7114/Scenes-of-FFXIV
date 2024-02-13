@@ -59,5 +59,6 @@ When creating wireframes, copying the mobile homepage facebook image changed it 
 ## Credits ##
 ### Content ###
 - Font family downloaded from [FontMeme](https://fontmeme.com/fonts/enge-etienne-font/), created by OPTIFONT.
+- [W3Schools](https://www.w3schools.com) for information on various HTML and CSS tips.
 
 ### Media ###

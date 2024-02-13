@@ -87,7 +87,7 @@ nav ul {
 /* Main Content */
 
 main {
-  background-color: blue;
+  background-image: linear-gradient(slategray, #333333);
   display: flex;
   flex: 1 0 auto;
   margin-top: 93px;
@@ -105,12 +105,12 @@ footer {
   justify-content: space-between;
 }
 
-#socials p {
+.socials p {
   padding-left: 8px;
   color: whitesmoke;
 }
 
-#socials ul {
+.socials ul {
   list-style-type: none;
   display: flex;
   height: 40px;
@@ -120,20 +120,20 @@ footer {
   padding-left: 10px;
 }
 
-#socials li {
+.socials li {
   font-size: 1.2em;
 }
 
-#socials i {
+.socials i {
   color: whitesmoke;
 }
 
-#store-pages p {
+.store-pages p {
   padding-right: 8px;
   color: whitesmoke;
 }
 
-#store-pages ul {
+.store-pages ul {
   list-style-type: none;
   display: flex;
   height: 40px;
@@ -142,11 +142,11 @@ footer {
   justify-content: space-evenly;
 }
 
-#store-pages li {
+.store-pages li {
   font-size: 1.3em;
 }
 
-#store-pages a {
+.store-pages a {
   color: whitesmoke;
   text-decoration: none;
 }
