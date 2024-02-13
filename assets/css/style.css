@@ -128,9 +128,15 @@ main {
   text-shadow: 1px 1px 1px black;
 }
 
-#coming-soon-text strong:hover {
+#coming-soon-text a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#coming-soon-text a:hover {
   text-decoration: underline;
 }
+
 
 /* Footer */
 footer {
