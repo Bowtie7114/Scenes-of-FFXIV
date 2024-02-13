@@ -38,6 +38,7 @@ header h1 {
   font-size: 4em;
   text-align: center;
   font-weight: 200;
+  text-shadow: 2px 2px 2px black;
   color: whitesmoke;
 }
 
@@ -81,6 +82,7 @@ nav ul {
 .nav-toggle-label {
   font-size: 2rem;
   padding: 0 .6rem;
+  text-shadow: 2px 2px 2px black;
   color: whitesmoke;
 }
 
@@ -88,6 +90,7 @@ nav ul {
 
 main {
   background-image: linear-gradient(slategray, #333333);
+  
   display: flex;
   flex: 1 0 auto;
   margin-top: 93px;
@@ -101,6 +104,7 @@ main {
 /* Footer */
 footer {
   background-color: #333333;
+  text-shadow: 1.5px 1.5px 1.5px black;
   display: flex;
   justify-content: space-between;
 }
