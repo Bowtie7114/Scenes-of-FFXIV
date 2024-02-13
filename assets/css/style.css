@@ -94,15 +94,42 @@ nav ul {
 
 main {
   background-image: linear-gradient(slategray, #333333);
-  
   display: flex;
   flex: 1 0 auto;
   margin-top: 93px;
   flex-direction: column;
+  color: whitesmoke;
 }
 
 #site-description {
   
+}
+
+#coming-soon {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  
+}
+
+#coming-soon h2 {
+  font-size: 3em;
+  text-align: center;
+  font-weight: 200;
+  text-shadow: 2px 2px 2px black;
+}
+
+#coming-soon-text {
+  font-size: 1em;
+  text-align: center;
+  font-weight: 100;
+  text-shadow: 1px 1px 1px black;
+}
+
+#coming-soon-text strong:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
