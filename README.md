@@ -65,7 +65,7 @@ When creating wireframes, copying the mobile homepage facebook image changed it 
 
 ### Media ###
 - Content images were taken by myself using my own FFXIV account and the in-game screenshot function. Due to weather conditions and a day night cycle, this proved somewhat taxing.
-- 
+- The Coming Soon image is the public base game render of a Lalafellan Alchemist. The image itself was taken from the [Final Fantasy Wiki](https://finalfantasy.fandom.com/wiki/Alchemist_(Final_Fantasy_XIV)).
   
 FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.
 © SQUARE ENIX CO., LTD. All rights reserved. 
