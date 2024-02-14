@@ -317,7 +317,38 @@ footer {
   main {
     margin-top: 143px;
   }
-  
+
+  /* Footer */
+
+  footer {
+    justify-content: space-evenly;
+  }
+
+  .socials {
+    width: 30%;
+  }
+
+  .socials p {
+    padding-left: 12%;
+    font-size: 1.3em;
+  }
+
+  .socials li {
+    font-size: 1.4em;
+  }
+
+  .store-pages {
+    width: 30%;
+  }
+
+  .store-pages p {
+    padding-left: 5%;
+    font-size: 1.3em;
+  }
+
+  .store-pages li {
+    font-size: 1.5em;
+  }
 }
 
 /* Laptops or desktops */
@@ -325,6 +356,35 @@ footer {
   
   .empty {
     width: 3%;
+  }
+
+
+  /* Footer */
+  
+  .socials {
+    width: 30%;
+  }
+
+  .socials p {
+    padding-left: 30%;
+    font-size: 1.6em;
+  }
+
+  .socials li {
+    font-size: 1.6em;
+  }
+
+  .store-pages {
+    width: 30%;
+  }
+
+  .store-pages p {
+    padding-left: 27%;
+    font-size: 1.6em;
+  }
+
+  .store-pages li {
+    font-size: 1.7em;
   }
   
 }
