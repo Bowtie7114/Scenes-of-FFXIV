@@ -72,6 +72,7 @@ nav ul {
 #nav-menu > li {
   margin-bottom: 1em;
   color: whitesmoke;
+  text-shadow: 1px 1px 1px black;
 }
 
 /* Nav toggle */
@@ -310,14 +311,18 @@ footer {
 
 /* Laptops or desktops */
 @media screen and (min-width: 992px) {
+  
   .empty {
     width: 3%;
   }
+  
 }
 
 /* Extra large screens */
 @media screen and (min-width: 1200px) {
+  
   .empty {
     width: 1%;
   }
+  
 }
