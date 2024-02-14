@@ -264,20 +264,60 @@ footer {
 /* Media queries */
 /* Large or landscape phones greater than 575px */
 @media screen and (min-width: 576px) {
+  nav {
+    background-image: linear-gradient(slategray, #37393a);
+  }
+}
+
+/* Tablets and screens larger than 800px */
+@media screen and (min-width: 800px) {
+
+  header {
+    flex-direction: column;
+  }
+  
+  .empty {
+    width: 7%;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+  
+  nav {
+    position: relative;
+    display: block;
+    background-image: none;
+    width: 90%;
+  }
+
+  #nav-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #nav-menu li {
+    float: left;
+  }
+
+  /* Main content */
+
+  main {
+    margin-top: 143px;
+  }
   
 }
 
-/* Tablets and screens larger than 767px */
-@media screen and (min-width: 768px) {
-  
-}
-
-/* Large laptops or desktops */
+/* Laptops or desktops */
 @media screen and (min-width: 992px) {
-  
+  .empty {
+    width: 3%;
+  }
 }
 
 /* Extra large screens */
 @media screen and (min-width: 1200px) {
-  
+  .empty {
+    width: 1%;
+  }
 }
