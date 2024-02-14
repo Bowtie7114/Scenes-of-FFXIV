@@ -195,6 +195,17 @@ main {
   text-shadow: 2px 2px 2px black;
 }
 
+#coming-soon-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#lalalchemist {
+  width: 300px;
+  height: auto;
+}
+
 #coming-soon-text {
   font-size: 1em;
   text-align: center;
