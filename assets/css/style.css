@@ -381,7 +381,7 @@ footer {
   }
 
   .socials p {
-    padding-left: 30%;
+    text-align: center;
     font-size: 1.5em;
   }
 
@@ -390,11 +390,11 @@ footer {
   }
 
   .store-pages {
-    width: 30%;
+    width: 35%;
   }
 
   .store-pages p {
-    padding-left: 27%;
+    text-align: center;
     font-size: 1.4em;
   }
 
