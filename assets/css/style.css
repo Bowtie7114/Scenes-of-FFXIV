@@ -132,6 +132,16 @@ main {
   text-align: center;
 }
 
+#pages a {
+  text-decoration: none;
+  color: inherit;
+  text-shadow: 1px 1px 1px black;
+}
+
+#pages a:hover {
+  text-decoration: underline;
+}
+
 .crests {
   height: 2em;
   width: 2em;
