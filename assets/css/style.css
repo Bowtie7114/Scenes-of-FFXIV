@@ -20,6 +20,10 @@ body {
 h1, h2, h3 {
   font-family: 'OPTIEngeEtienne', serif;
   text-transform: uppercase;
+  text-align: center;
+  font-weight: 200;
+  text-shadow: 2px 2px 2px black;
+  color: whitesmoke;
 }
 
 p {
@@ -43,10 +47,6 @@ header {
 
 header h1 {
   font-size: 4em;
-  text-align: center;
-  font-weight: 200;
-  text-shadow: 2px 2px 2px black;
-  color: whitesmoke;
 }
 
 header a {
@@ -136,7 +136,10 @@ main {
 }
 
 .content-divs {
-  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em 1em;
 }
 
 .first-div {
