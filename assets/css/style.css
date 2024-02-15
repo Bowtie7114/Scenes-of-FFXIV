@@ -72,7 +72,7 @@ nav ul {
 #nav-menu > li {
   margin-bottom: 1em;
   color: whitesmoke;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1.5px 1.5px 1.5px black;
 }
 
 /* Nav toggle */
@@ -340,12 +340,12 @@ footer {
   }
 
   .store-pages {
-    width: 30%;
+    width: 35%;
   }
 
   .store-pages p {
     padding-left: 5%;
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
 
   .store-pages li {
@@ -382,7 +382,7 @@ footer {
 
   .socials p {
     padding-left: 30%;
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
 
   .socials li {
@@ -395,7 +395,7 @@ footer {
 
   .store-pages p {
     padding-left: 27%;
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
 
   .store-pages li {
