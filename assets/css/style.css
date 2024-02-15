@@ -135,58 +135,20 @@ main {
   
 }
 
-/* La Noscea */
-
-#la-noscea-divs {
+.content-divs {
   
 }
 
-#outer-noscea {
+.first-div {
   
 }
 
-#east-noscea {
+.second-div {
   
 }
 
-#mid-noscea {
+.third-div {
   
-}
-
-/* Shroud */
-
-#shroud-divs {
-  
-}
-
-#south-shroud {
-  
-}
-
-#east-shroud {
-  
-}
-
-#north-shroud {
-  
-}
-
-/* Thanalan */
-
-#thanalan-divs {
-  
-}
-
-#east-thanalan {
-  
-}
-
-#south-thanalan {
-
-}
-
-#central-thanalan {
-
 }
 
 #coming-soon {
@@ -217,9 +179,7 @@ main {
 }
 
 #coming-soon-text {
-  font-size: 1em;
   text-align: center;
-  font-weight: 100;
   text-shadow: 1px 1px 1px black;
 }
 
