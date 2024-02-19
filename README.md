@@ -57,6 +57,8 @@ When creating wireframes, copying the mobile homepage facebook image changed it 
 When attempting to add a second font to the site via import from Google Fonts, the formatting broke, causing either the original font I had download and added via @font-face to break and revert to serif, or for the header style to break. This was corrected by instead downloading the font pack, uploading to the repo and applying via @font-face.
 <br>
 I was unable to utilise the Instagram page for FFXIV without being signed into Instagram. Testing this with my girlfriend's instagram allowed the link to work without issue (https://www.instagram.com/ffxiv?igsh=dmJrcmNoNDM4cmJ0) as such, the Instagram homepage will be used.
+<br>
+Upon testing with other people (Discord server full of friends) the Chrome users identified an issue with the images not showing next to each other as intended, and as Firefox did. Upon some testing, a float attribute was needed for the images on Chrome and Edge to stop them from wrapping around each other. Image was rectified and re-tested with those same users and the images were showing as intended.
 
 ## Deployment ## 
 
@@ -74,6 +76,7 @@ I was unable to utilise the Instagram page for FFXIV without being signed into I
 - Content images were taken by myself using my own FFXIV account and the in-game screenshot function. Due to weather conditions and a day night cycle, this proved somewhat taxing.
 - The Coming Soon image is the public base game render of a Lalafellan Alchemist. The image itself was taken from the [Final Fantasy Wiki](https://finalfantasy.fandom.com/wiki/Alchemist_(Final_Fantasy_XIV)).
 - Hero image taken from the [Final Fantasy XIV Fan Kit](https://na.finalfantasyxiv.com/lodestone/special/fankit/desktop_wallpaper/2_0/#nav_fankit).
+- 404 image of my character was taken and edited by Royal Jelly, a friend in Final Fantasy XIV who made this into a Discord sticker. 
   
 FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.
 © SQUARE ENIX CO., LTD. All rights reserved. 
