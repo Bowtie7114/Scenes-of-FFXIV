@@ -183,18 +183,6 @@ main {
   width: 100%;
 }
 
-.first-div {
-  
-}
-
-.second-div {
-  
-}
-
-.third-div {
-  
-}
-
 #coming-soon {
   display: flex;
   align-content: center;
@@ -414,11 +402,16 @@ footer {
     font-size: 1em;
   }
 
-  .content-images {
-    width: 48%;
-    height: auto;
+  .first-div {
     column-count: 2;
-    
+  }
+
+  .second-div {
+    column-count: 2;
+  }
+
+  .third-div {
+    column-count: 2;
   }
 
   /* Footer - Media */
