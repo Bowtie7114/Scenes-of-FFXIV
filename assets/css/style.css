@@ -430,7 +430,6 @@ footer {
 
   .first-div {
     column-count: 2;
-    flex-direction: row;
   }
 
   .second-div {
