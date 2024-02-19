@@ -183,6 +183,12 @@ main {
   width: 100%;
 }
 
+.opener {
+  text-align: center;
+  font-weight: 500;
+  font-shadow: 1px 1px 1px black;
+}
+
 #coming-soon {
   display: flex;
   align-content: center;
