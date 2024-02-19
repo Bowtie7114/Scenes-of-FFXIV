@@ -181,6 +181,7 @@ main {
 
 .content-images {
   width: 100%;
+  float: left;
 }
 
 .opener {
