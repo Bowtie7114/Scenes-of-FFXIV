@@ -63,6 +63,7 @@ When attempting to add a second font to the site via import from Google Fonts, t
 - Font family downloaded from [FontMeme](https://fontmeme.com/fonts/enge-etienne-font/), created by OPTIFONT.
 - Font families Imbue and Bitter downloaded from [Google Fonts](https://fonts.google.com/).
 - [W3Schools](https://www.w3schools.com) for information on various HTML and CSS tips.
+- [Stack Overflow](https://stackoverflow.com/) for information on various HTML and CSS tips.
 - [Final Fantasy XIV Fan Kit site](https://na.finalfantasyxiv.com/lodestone/special/fankit/icon/) for various icons used as favicons and README title accompaniment.
 - [Final Fantasy XIV Materials Usage License](https://support.na.square-enix.com/rule.php?id=5382&tag=authc) confirming the feasibility of the project and what concessions are required.
 - Information regarding locations was taken either from in-game or from the [Final Fantasy Wiki](https://finalfantasy.fandom.com/wiki/Final_Fantasy_Wiki).
