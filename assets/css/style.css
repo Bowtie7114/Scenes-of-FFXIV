@@ -342,6 +342,7 @@ footer {
     column-count: 2;
   }
 
+
   /* Footer - Media */
 
   footer {
@@ -406,6 +407,12 @@ footer {
 
   #copyright {
     font-size: 1em;
+  }
+
+  .content-images {
+    width: 45%;
+    height: auto;
+    column-count: 2;
   }
 
   /* Footer - Media */
