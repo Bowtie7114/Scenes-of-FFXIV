@@ -425,6 +425,7 @@ footer {
   .content-divs p {
     font-size: 1.3em;
     font-shadow: 1px 1px 1px black;
+    width: 92%;
   }
 
   .first-div {
