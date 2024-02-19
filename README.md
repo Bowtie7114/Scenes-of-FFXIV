@@ -55,6 +55,8 @@ When styling the Store Page icons from Font Awesome (Steam and Meteor), using th
 When creating wireframes, copying the mobile homepage facebook image changed it to a different facebook image on paste. Did not change as it does not affect functionality.
 <br>
 When attempting to add a second font to the site via import from Google Fonts, the formatting broke, causing either the original font I had download and added via @font-face to break and revert to serif, or for the header style to break. This was corrected by instead downloading the font pack, uploading to the repo and applying via @font-face.
+<br>
+I was unable to utilise the Instagram page for FFXIV without being signed into Instagram. Testing this with my girlfriend's instagram allowed the link to work without issue (https://www.instagram.com/ffxiv?igsh=dmJrcmNoNDM4cmJ0) as such, the Instagram homepage will be used.
 
 ## Deployment ## 
 
