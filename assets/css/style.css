@@ -187,6 +187,7 @@ main {
   text-align: center;
   font-weight: 500;
   font-shadow: 1px 1px 1px black;
+  border-bottom: 1px solid whitesmoke;
 }
 
 #coming-soon {
