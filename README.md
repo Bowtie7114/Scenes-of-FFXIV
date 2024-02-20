@@ -21,6 +21,21 @@ They are split into distinct groups, with the socials leading to Facebook, Insta
 ![Footer](docs/readme_images/Footer.png)
 <br>
 As this is a gallery page, and the goal is to allow the User to see the screenshots, the header and footer are glued to the top and bottom of the page respectively.
+<br><br>
+
+The Hero image on the Homepage is responsive and changes size, starting from the middle of the image, on larger screens by design. <br>
+
+![Hero Image Mobile](docs/readme_images/Hero_Mobile.png)
+![Hero Image Desktop](docs/readme_images/Hero_PC.png)
+<br><br>
+
+For the main content of the Homepage, there is an introduction on the site, the game it is based on, and instructions on using the site. There are also additional links to the various pages available with the crests of those area's ruling parties/armies. On Mobile, these are in one line, but on larger screens this is spread into two columns to save space and be more visually appealing.
+<br>
+
+![Homepage Mobile](docs/readme_images/Hero_Mobile.png)
+![Homepage PC](docs/readme_images/Hero_PC.png)
+
+<br><br>
 
 ## Design ##
 ### Wireframe ###
