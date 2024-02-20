@@ -37,6 +37,26 @@ For the main content of the Homepage, there is an introduction on the site, the 
 
 <br><br>
 
+The content pages contain a sub-heading, and introduction to the area, and then the main focus: A description of a region, and two images from said region, repeated three times.
+<br><br>
+
+![Mobile Content 1](docs/readme_images/Content_mobile_1.png)
+![Mobile Content 2](docs/readme_images/Content_mobile_2.png)
+![Desktop Content](docs/readme_images/Content_PC.png)
+
+<br><br>
+
+There is a Coming Soon page with a small section of text explaining that more content is on the way, and a Lalafell Alchemist performing experiments, for visual flair.
+
+Similarly, the 404 page, which redirects at broken or missing URLs, does something similar, with a Lalafell performing the "This is fine" meme. Both pages have a small paragraph with a URL to the homepage, though all other nav bar and footer URLs are present and in operation.
+
+<br><br>
+
+![Coming Soon content](docs/readme_images/Coming_soon.png)
+![404 Content](docs/readme_images/404.png)
+
+<br><br>
+
 ## Design ##
 ### Wireframe ###
 Home page
