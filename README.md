@@ -15,8 +15,11 @@ For mobile devices and small screens the navigation bar is a hidden element unti
 ![Mobile Nav Bar open](docs/readme_images/Nav_mobile_open.png)
 <br>
 
-The footer...
-
+The footer contains six links; four to social pages, and two to store pages for the game.
+They are split into distinct groups, with the socials leading to Facebook, Instagram, Discord, and Reddit. The store pages lead to the Steam Store and the FFXIV homepage respectively.
+<br>
+![Footer](docs/readme_images/Footer.png)
+<br>
 As this is a gallery page, and the goal is to allow the User to see the screenshots, the header and footer are glued to the top and bottom of the page respectively.
 
 ## Design ##
@@ -69,13 +72,14 @@ When creating wireframes, copying the mobile homepage facebook image changed it 
 <br>
 When attempting to add a second font to the site via import from Google Fonts, the formatting broke, causing either the original font I had download and added via @font-face to break and revert to serif, or for the header style to break. This was corrected by instead downloading the font pack, uploading to the repo and applying via @font-face.
 <br>
-I was unable to utilise the Instagram page for FFXIV without being signed into Instagram. Testing this with my girlfriend's instagram allowed the link to work without issue (https://www.instagram.com/ffxiv?igsh=dmJrcmNoNDM4cmJ0) as such, the Instagram homepage will be used to avoid a 404 error for those that do not have Instagram accounts.
+I was unable to utilise the official Instagram page for FFXIV without being signed into Instagram. Testing this with my girlfriend's Instagram account allowed the link to work without issue (https://www.instagram.com/ffxiv?igsh=dmJrcmNoNDM4cmJ0) as such, the Instagram homepage will be used to avoid a 404 error for those that do not have Instagram accounts.
 <br>
 Upon testing with other people (Discord server full of friends) the Chrome users identified an issue with the images not showing next to each other as intended, and as Firefox did. Upon some testing, a float declaration was needed for the images on Chrome and Edge to stop them from wrapping around each other. Image was rectified and re-tested with those same users and the images were showing as intended.
 
 ### Feedback ###
 When testing mobile, feedback received was that the nav menu opened on the left where the burger icon was on the right. As such, this was changed for a better UX. Upon re-testing, several user reported this feature was much improved.
 <br>
+
 
 ## Credits ##
 ### Content ###
