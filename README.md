@@ -1,10 +1,23 @@
 # Scenes of FFXIV #
-Scenes of FFXIV is a site intended to showcase a number of locations from the critically acclaimed MMORPG Final Fantasy XIV (FFXIV).
+Scenes of FFXIV is a gallery site intended to showcase a number of locations from the critically acclaimed MMORPG Final Fantasy XIV (FFXIV).
 It will contain a number of in-game screenshots from these locations as well as some descriptive text detailing the history or some key features of the landscape shown.
 <br>
 This site is intended for any who may be interested in FFXIV, whether it is existing players, those who cannot play, who used to and wish for a feeling of nostalgia, or those who are on the fence and may want a closer look at some of the vistas that are on offer.
 
 ## Features ##
+The Navigation bar contains the page header as a central element, "Scenes of FFXIV". It also acts as a link to the Homepage. On larger screens the navigation menu is below the title in a row, with an underline denoting which page the user is currently visiting. <br>
+
+![Desktop Nav Bar](docs/readme_images/Nav_desktop.png)
+<br>
+For mobile devices and small screens the navigation bar is a hidden element until the burger icon is selected. The nav menu then opens below the icon and works as similarly to the larger screen version. The nav menu can then be closed by selecting the icon again.
+<br>
+![Mobile Nav Bar closed](docs/readme_images/Nav_mobile_closed.png)
+![Mobile Nav Bar open](docs/readme_images/Nav_mobile_open.png)
+<br>
+
+The footer...
+
+As this is a gallery page, and the goal is to allow the User to see the screenshots, the header and footer are glued to the top and bottom of the page respectively.
 
 ## Design ##
 ### Wireframe ###
@@ -58,7 +71,7 @@ When attempting to add a second font to the site via import from Google Fonts, t
 <br>
 I was unable to utilise the Instagram page for FFXIV without being signed into Instagram. Testing this with my girlfriend's instagram allowed the link to work without issue (https://www.instagram.com/ffxiv?igsh=dmJrcmNoNDM4cmJ0) as such, the Instagram homepage will be used to avoid a 404 error for those that do not have Instagram accounts.
 <br>
-Upon testing with other people (Discord server full of friends) the Chrome users identified an issue with the images not showing next to each other as intended, and as Firefox did. Upon some testing, a float attribute was needed for the images on Chrome and Edge to stop them from wrapping around each other. Image was rectified and re-tested with those same users and the images were showing as intended.
+Upon testing with other people (Discord server full of friends) the Chrome users identified an issue with the images not showing next to each other as intended, and as Firefox did. Upon some testing, a float declaration was needed for the images on Chrome and Edge to stop them from wrapping around each other. Image was rectified and re-tested with those same users and the images were showing as intended.
 
 ### Feedback ###
 When testing mobile, feedback received was that the nav menu opened on the left where the burger icon was on the right. As such, this was changed for a better UX. Upon re-testing, several user reported this feature was much improved.
