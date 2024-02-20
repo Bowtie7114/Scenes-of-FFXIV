@@ -57,6 +57,11 @@ Similarly, the 404 page, which redirects at broken or missing URLs, does somethi
 
 <br><br>
 
+The favicon is set to the icon for the Sightseeing Log in game, which I thought was appropriate, and the title changes depending on the page the user is on, preceeded by "FFXIV Scenes - ".
+<br>
+
+
+
 ## Design ##
 ### Wireframe ###
 Home page
