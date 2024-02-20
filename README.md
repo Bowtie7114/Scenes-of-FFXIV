@@ -32,8 +32,8 @@ The Hero image on the Homepage is responsive and changes size, starting from the
 For the main content of the Homepage, there is an introduction on the site, the game it is based on, and instructions on using the site. There are also additional links to the various pages available with the crests of those area's ruling parties/armies. On Mobile, these are in one line, but on larger screens this is spread into two columns to save space and be more visually appealing.
 <br>
 
-![Homepage Mobile](docs/readme_images/Hero_Mobile.png)
-![Homepage PC](docs/readme_images/Hero_PC.png)
+![Homepage Mobile](docs/readme_images/Main_Mobile.png)
+![Homepage PC](docs/readme_images/Main_PC.png)
 
 <br>
 
