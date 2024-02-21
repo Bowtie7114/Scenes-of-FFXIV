@@ -156,6 +156,12 @@ Initial validation with the [W3C Validator](https://validator.w3.org/#validate_b
 ![Validator Coming Soon](docs/readme_images/Validator_soon.png)
 ![Validator 404](docs/readme_images/Validator_404.png)
 
+Initial validation with the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) flagged a number of mistakes seen below. These were corrected and validator passed on second run.
+<br>
+
+![CSS Validator fail](docs/readme_images/CSS_validator_errors.png)
+![CSS Validator pass](docs/readme_images/CSS_validator_fixed.png)
+
 ### Bugs ###
 - When styling the Store Page icons from Font Awesome (Steam and Meteor), using the 'i' attribute did not allow the colour to change as it did with the Socials icons. I had to use the 'a' attribute. This will not be looked into as it works as is.
 <br><br>
