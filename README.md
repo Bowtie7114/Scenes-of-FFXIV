@@ -147,7 +147,14 @@ After manual testing, the site was navigable using only keyboard and only mouse,
 All page links were tested thoroughly throughout development, and again by multiple test users by selecting each link on each page individually. This includes the page links and the external social media sites and store pages in the footer.
 
 ### Validator Testing ###
-Initial validation with the [W3C Validator](https://validator.w3.org/#validate_by_uri) found a number of errors and warnings to resolve in the HTML relating to stray end tags for the i attributes from font-awesome.
+Initial validation with the [W3C Validator](https://validator.w3.org/#validate_by_uri) found a number of errors and warnings to resolve in the HTML relating to stray end tags for the i attributes from font-awesome. Upon correct these, no further errors were noted:
+
+![Validator Homepage](docs/readme_images/Validator_home.png)
+![Validator Thanalan](docs/readme_images/Validator_thanalan.png)
+![Validator La Noscea](docs/readme_images/Validator_noscea.png)
+![Validator Shroud](docs/readme_images/Validator_shroud.png)
+![Validator Coming Soon](docs/readme_images/Validator_soon.png)
+![Validator 404](docs/readme_images/Validator_404.png)
 
 ### Bugs ###
 - When styling the Store Page icons from Font Awesome (Steam and Meteor), using the 'i' attribute did not allow the colour to change as it did with the Socials icons. I had to use the 'a' attribute. This will not be looked into as it works as is.
