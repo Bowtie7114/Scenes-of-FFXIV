@@ -125,14 +125,14 @@ The following were all Alerts that were received by the tool, but will not be ch
 The following Alert was changed:
 - Suspicious link text on Coming Soon and 404 pages. Link to homepage removed and text changed/removed.
 
-After manual testing, the site was navigable using only keyboard and only mouse, respectively, on Mozilla Firefox, Google Chrome, Microsoft Edge, and Safari.
-
 The following criteria was met following testing with the Wave Accessibility tool:
 - Colour contrasts passed both the WCAG AA and AAA, with a contrast ratio of 8.59:1.
 - The order of the page flows correctly from header to text without skipping sections.
 - All non-text based content contains alt text descriptions for screen readers.
 - HTML page lang attribute has been set correctly.
 - Aria properties implemented correctly.
+
+After manual testing, the site was navigable using only keyboard and only mouse, respectively, on Mozilla Firefox, Google Chrome, Microsoft Edge, and Safari.
 
 ### Lighthouse Testing ###
 
@@ -141,6 +141,13 @@ The following criteria was met following testing with the Wave Accessibility too
 ![Lighthouse La Noscea page](docs/readme_images/Lighthouse_Noscea.png)
 ![Lighthouse Black Shroud page](docs/readme_images/Lighthouse_Shroud.png)
 ![Lighthouse Coming Soon page](docs/readme_images/Lighthouse_Soon.png)
+
+### Functional Testing ###
+
+All page links were tested thoroughly throughout development, and again by multiple test users by selecting each link on each page individually. This includes the page links and the external social media sites and store pages in the footer.
+
+### Validator Testing ###
+Initial validation with the [W3C Validator](https://validator.w3.org/#validate_by_uri) found a number of errors and warnings to resolve in the HTML relating to stray end tags for the i attributes from font-awesome.
 
 ### Bugs ###
 - When styling the Store Page icons from Font Awesome (Steam and Meteor), using the 'i' attribute did not allow the colour to change as it did with the Socials icons. I had to use the 'a' attribute. This will not be looked into as it works as is.
