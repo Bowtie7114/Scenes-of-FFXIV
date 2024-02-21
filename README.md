@@ -3,6 +3,9 @@ Scenes of FFXIV is a gallery site intended to showcase a number of locations fro
 It will contain a number of in-game screenshots from these locations as well as some descriptive text detailing the history or some key features of the landscape shown.
 <br><br>
 This site is intended for any who may be interested in FFXIV, whether it is existing players, those who cannot play, who used to and wish for a feeling of nostalgia, or those who are on the fence and may want a closer look at some of the vistas that are on offer.
+<br><br>
+
+![Website Mock-up](docs/readme_images/Mock_up.png)
 
 ## Features ##
 The Navigation bar contains the page header as a central element, "Scenes of FFXIV". It also acts as a link to the Homepage. On larger screens the navigation menu is below the title in a row, with an underline denoting which page the user is currently visiting. <br>
