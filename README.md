@@ -113,6 +113,10 @@ Coming Soon page
 ## Testing ##
 
 ### Accessibility ###
+The [Wave Accessibility] tool was used for testing at the end of development. The testing found one critical error in that there was no label for the "burger icon" to open the navigation menu on Mobile. This label was added to all pages and the error resolved.
+
+After manual testing, the site was navigable using only keyboard and only mouse, respectively, on Mozilla Firefox, Google Chrome, Microsoft Edge, and Safari.
+
 
 
 ### Bugs ###

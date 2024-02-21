@@ -66,6 +66,7 @@ nav {
   display: flex;
   justify-content: center;
   padding: 5px 10px;
+  background-color: slategray; /* Fallback colour */;
   background-image: linear-gradient(slategray, #58626c);;
   display: none;
 }
@@ -107,6 +108,7 @@ nav ul {
 /* Main Content */
 
 main {
+  background-color: ##484d52; /* Fallback colour */
   background-image: linear-gradient(slategray, #333333);
   display: flex;
   flex: 1 0 auto;
