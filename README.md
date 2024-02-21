@@ -134,6 +134,14 @@ The following criteria was met following testing with the Wave Accessibility too
 - HTML page lang attribute has been set correctly.
 - Aria properties implemented correctly.
 
+### Lighthouse Testing ###
+
+![Lighthouse Homepage](docs/readme_images/Lighthouse_Homepage.png)
+![Lighthouse Thanalan page](docs/readme_images/Lighthouse_Thanalan.png)
+![Lighthouse La Noscea page](docs/readme_images/Lighthouse_Noscea.png)
+![Lighthouse Black Shroud page](docs/readme_images/Lighthouse_Shroud.png)
+![Lighthouse Coming Soon page](docs/readme_images/Lighthouse_Soon.png)
+
 ### Bugs ###
 - When styling the Store Page icons from Font Awesome (Steam and Meteor), using the 'i' attribute did not allow the colour to change as it did with the Socials icons. I had to use the 'a' attribute. This will not be looked into as it works as is.
 <br><br>
