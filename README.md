@@ -55,7 +55,7 @@ The content pages contain a sub-heading, and introduction to the area, and then 
 ### Coming Soon & 404: ###
 There is a Coming Soon page with a small section of text explaining that more content is on the way, and a Lalafell Alchemist performing experiments, for visual flair.
 
-Similarly, the 404 page, which redirects at broken or missing URLs, does something similar, with a Lalafell performing the "This is fine" meme. Both pages have a small paragraph with a URL to the homepage, though all other nav bar and footer URLs are present and in operation.
+Similarly, the 404 page, which redirects at broken or missing URLs, does something similar, with a Lalafell performing the "This is fine" meme. The paragraph containing the 'click here' passage was removed for accessibility reasons on both pages.
 
 <br>
 
