@@ -8,6 +8,7 @@ This site is intended for any who may be interested in FFXIV, whether it is exis
 ![Website Mock-up](docs/readme_images/Mock_up.png)
 
 ## Features ##
+### Site wide features: ###
 The Navigation bar contains the page header as a central element, "Scenes of FFXIV". It also acts as a link to the Homepage. On larger screens the navigation menu is below the title in a row, with an underline denoting which page the user is currently visiting. <br>
 
 ![Desktop Nav Bar](docs/readme_images/Nav_desktop.png)
@@ -26,6 +27,7 @@ They are split into distinct groups, with the socials leading to Facebook, Insta
 As this is a gallery page, and the goal is to allow the User to see the screenshots, the header and footer are glued to the top and bottom of the page respectively.
 <br>
 
+### Homepage: ###
 The Hero image on the Homepage is responsive and changes size, starting from the middle of the image, on larger screens by design. <br>
 
 ![Hero Image Mobile](docs/readme_images/Hero_Mobile.png)
@@ -38,8 +40,9 @@ For the main content of the Homepage, there is an introduction on the site, the 
 ![Homepage Mobile](docs/readme_images/Main_mobile.png)
 ![Homepage PC](docs/readme_images/Main_PC.png)
 
-<br>
+<br><br>
 
+### Content pages: ###
 The content pages contain a sub-heading, and introduction to the area, and then the main focus: A description of a region, and two images from said region, repeated three times.
 <br>
 
@@ -47,8 +50,9 @@ The content pages contain a sub-heading, and introduction to the area, and then 
 ![Mobile Content 2](docs/readme_images/Content_mobile_2.png)
 ![Desktop Content](docs/readme_images/Content_PC.png)
 
-<br>
+<br><br>
 
+### Coming Soon & 404: ###
 There is a Coming Soon page with a small section of text explaining that more content is on the way, and a Lalafell Alchemist performing experiments, for visual flair.
 
 Similarly, the 404 page, which redirects at broken or missing URLs, does something similar, with a Lalafell performing the "This is fine" meme. Both pages have a small paragraph with a URL to the homepage, though all other nav bar and footer URLs are present and in operation.
@@ -60,6 +64,7 @@ Similarly, the 404 page, which redirects at broken or missing URLs, does somethi
 
 <br>
 
+### Favicon ###
 The favicon is set to the icon for the Sightseeing Log in game, which I thought was appropriate, and the title changes depending on the page the user is on, preceeded by "FFXIV Scenes - ".
 
 ![Favicon and Title](docs/readme_images/Favtitle.png)
