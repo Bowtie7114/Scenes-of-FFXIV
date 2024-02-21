@@ -40,7 +40,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 99%;
+  z-index: 99;
 }
 
 .empty {
@@ -108,7 +108,7 @@ nav ul {
 /* Main Content */
 
 main {
-  background-color: ##484d52; /* Fallback colour */
+  background-color: #484d52; /* Fallback colour */
   background-image: linear-gradient(slategray, #333333);
   display: flex;
   flex: 1 0 auto;
@@ -190,7 +190,7 @@ main {
 .opener {
   text-align: center;
   font-weight: 500;
-  font-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px black;
   border-bottom: 1px solid whitesmoke;
 }
 
@@ -352,7 +352,7 @@ footer {
 
   .content-divs p {
     font-size: 1.1em;
-    font-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px black;
   }
 
 
@@ -409,7 +409,7 @@ footer {
   #site-description {
     font-size: 1.3em;
     text-shadow: 1px 1px 1px black;
-    width: 80;
+    width: 80%;
   }
 
   #pages {
@@ -428,7 +428,7 @@ footer {
 
   .content-divs p {
     font-size: 1.3em;
-    font-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px black;
     width: 92%;
   }
 
