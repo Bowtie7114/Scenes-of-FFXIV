@@ -115,9 +115,24 @@ Coming Soon page
 ### Accessibility ###
 The [Wave Accessibility] tool was used for testing at the end of development. The testing found one critical error in that there was no label for the "burger icon" to open the navigation menu on Mobile. This label was added to all pages and the error resolved.
 
+The following were all Alerts that were received by the tool, but will not be changed as they are intentional in some manner:
+- Possible headings for main page secondary links. They are p elements whereas the system think they would be better as h elements.
+- Possible headings for footer Socials and Store pages paragraphs.
+- Redundant link. Home Nav element directly next to Title, both containing the index.html redirect.
+- Underlined text on nav menu items. Kept for visual representation of what page the user is on.
+- Long alternative text for images: as this is a gallery site, I feel the images being more descriptive here is a boon, rather than a bane.
+
+The following Alert was changed:
+- Suspicious link text on Coming Soon and 404 pages. Link to homepage removed and text changed/removed.
+
 After manual testing, the site was navigable using only keyboard and only mouse, respectively, on Mozilla Firefox, Google Chrome, Microsoft Edge, and Safari.
 
-
+The following criteria was met following testing with the Wave Accessibility tool:
+- Colour contrasts passed both the WCAG AA and AAA, with a contrast ratio of 8.59:1.
+- The order of the page flows correctly from header to text without skipping sections.
+- All non-text based content contains alt text descriptions for screen readers.
+- HTML page lang attribute has been set correctly.
+- Aria properties implemented correctly.
 
 ### Bugs ###
 - When styling the Store Page icons from Font Awesome (Steam and Meteor), using the 'i' attribute did not allow the colour to change as it did with the Socials icons. I had to use the 'a' attribute. This will not be looked into as it works as is.
