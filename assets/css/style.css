@@ -294,10 +294,6 @@ main {
   text-shadow: 1px 1px 1px black;
 }
 
-input[type="radio"] {
-  margin-left: 5px;
-}
-
 /* Footer */
 footer {
   background-color: #333333;
