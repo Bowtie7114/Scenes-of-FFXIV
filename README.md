@@ -153,14 +153,14 @@ After manual testing, the site was navigable using only keyboard and only mouse,
 ### Lighthouse Testing ###
 Initial Lighthouse testing was performed using Google Chrome, and showed low performance (between 65 and 89) due to image sizes. Accessibility was also at 94 across the board. Lighthouse testing was done again upon in the UK and accessiblity was 100 without additional changes. It could be related to language differences in the browser/systems used at the time. <br><br>
 Content images were made smaller in terms of resolution (1600px by 900px), converted to webp, and then run through tinypng.com to improve performance. Significant increases were observed. <br><br>
-Previous values:
+Previous values:<br>
 ![Lighthouse Homepage](docs/readme_images/Lighthouse_Homepage.png)
 ![Lighthouse Thanalan page](docs/readme_images/Lighthouse_Thanalan.png)
 ![Lighthouse La Noscea page](docs/readme_images/Lighthouse_Noscea.png)
 ![Lighthouse Black Shroud page](docs/readme_images/Lighthouse_Shroud.png)
 ![Lighthouse Coming Soon page](docs/readme_images/Lighthouse_Soon.png)
 <br><br>
-New values:
+New values:<br>
 ![Lighthouse Homepage](docs/readme_images/Lighthouse_Homepage2.PNG)
 ![Lighthouse Thanalan page](docs/readme_images/Lighthouse_Thanalan2.PNG)
 ![Lighthouse La Noscea page](docs/readme_images/Lighthouse_Noscea2.PNG)
