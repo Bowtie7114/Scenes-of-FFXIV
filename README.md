@@ -52,14 +52,27 @@ The content pages contain a sub-heading, and introduction to the area, and then 
 
 <br><br>
 
-### Coming Soon & 404: ###
-There is a Coming Soon page with a small section of text explaining that more content is on the way, and a Lalafell Alchemist performing experiments, for visual flair.
-
-Similarly, the 404 page, which redirects at broken or missing URLs, does something similar, with a Lalafell performing the "This is fine" meme. The paragraph containing the 'click here' passage was removed for accessibility reasons on both pages.
+### Coming Soon page: ###
+There is a Coming Soon page with a small section of text explaining that more content is on the way, and a Lalafell Alchemist performing experiments, for visual flair. Below this there is a form allowing the user to sign up to a newsletter containing updates on the site. This will send the user to the Thank You page upon successful submission.
 
 <br>
 
 ![Coming Soon content](docs/readme_images/Coming_soon.png)
+
+<br><br>
+
+### Thank You page: ###
+Once the form is submitted, the User is taken to the Thank You page, containing some large text thanking the User, and asking them to "look forward to monthly updates" with a smiling Au'Ra greeting them.
+<br>
+
+![Thank you content](docs/readme_image/Thank_you.PNG)
+
+### 404 page: ###
+
+The 404 page, which redirects at broken or missing URLs, features a Lalafell performing the "This is fine" meme. The paragraph containing the 'click here' passage was removed for accessibility reasons but urges the user to either check that their URL is correct, or find the creator on GitHub in order to let them know that something is broken.
+
+<br>
+
 ![404 Content](docs/readme_images/404.png)
 
 <br>
