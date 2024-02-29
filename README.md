@@ -53,7 +53,7 @@ The content pages contain a sub-heading, and introduction to the area, and then 
 <br><br>
 
 ### Coming Soon page: ###
-There is a Coming Soon page with a small section of text explaining that more content is on the way, and a Lalafell Alchemist performing experiments, for visual flair. Below this there is a form allowing the user to sign up to a newsletter containing updates on the site. This will send the user to the Thank You page upon successful submission.
+There is a Coming Soon page with a small section of text explaining that more content is on the way, and a Lalafell Alchemist performing experiments, for visual flair. Next to this there is a form allowing the user to sign up to a newsletter containing updates on the site. This will send the user to the Thank You page upon successful submission.
 
 <br>
 
@@ -122,6 +122,8 @@ Coming Soon page
   <br> Used to create wireframe designs for website.
 - cloudconvert.com
   <br> Used to convert hero and content images from .png to .webp.
+- tinypng.com
+  <br> Used to compress image files before upload to increase web loading performance.
 
 ## Testing ##
 
@@ -227,7 +229,7 @@ A site can be deployed to GitHub Pages by:
 - Content images were taken by myself using my own FFXIV account and the in-game screenshot function. Due to weather conditions and a day night cycle, this proved somewhat taxing.
 - The Coming Soon image is the public base game render of a Lalafellan Alchemist. The image itself was taken from the [Final Fantasy Wiki](https://finalfantasy.fandom.com/wiki/Alchemist_(Final_Fantasy_XIV)).
 - Hero image taken from the [Final Fantasy XIV Fan Kit](https://na.finalfantasyxiv.com/lodestone/special/fankit/desktop_wallpaper/2_0/#nav_fankit).
-- 404 image of my character was taken and edited by Royal Jelly, a friend in Final Fantasy XIV who made this into a Discord sticker. 
+- 404 image of my character and thank you image of another FC member were taken and edited by Royal Jelly, a friend in Final Fantasy XIV who made these into Discord stickers. Permission was provided before use. 
   
 FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.
 © SQUARE ENIX CO., LTD. All rights reserved. 
