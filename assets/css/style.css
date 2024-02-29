@@ -203,6 +203,22 @@ main {
   
 }
 
+#thanks {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+
+}
+
+#thanks h2 {
+  font-size: 3em;
+  text-align: center;
+  font-weight: 200;
+  text-shadow: 2px 2px 2px black;
+}
+
 #coming-soon h2 {
   font-size: 3em;
   text-align: center;
@@ -215,6 +231,12 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+#thanks-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
 
 #lalalchemist {
   width: 100%;
@@ -235,7 +257,6 @@ main {
   text-decoration: underline;
   color: inherit;
 }
-
 
 /* Footer */
 footer {
@@ -360,7 +381,19 @@ footer {
     text-shadow: 1px 1px 1px black;
   }
 
+  #thanks {
+    
+  } 
 
+  #lalaburn {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  #thanks-image {
+        
+  } 
+  
   /* Footer - Media */
 
   footer {
