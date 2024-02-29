@@ -66,7 +66,7 @@ There is a Coming Soon page with a small section of text explaining that more co
 Once the form is submitted, the User is taken to the Thank You page, containing some large text thanking the User, and asking them to "look forward to monthly updates" with a smiling Au'Ra greeting them.
 <br>
 
-![Thank you content](docs/readme_image/Thank_you.PNG)
+![Thank you content](docs/readme_images/Thank_you.PNG)
 
 ### 404 page: ###
 
