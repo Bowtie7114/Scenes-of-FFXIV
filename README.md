@@ -57,7 +57,8 @@ There is a Coming Soon page with a small section of text explaining that more co
 
 <br>
 
-![Coming Soon content](docs/readme_images/Coming_soon.png)
+![Coming Soon content](docs/readme_images/Coming_soon_desktop.PNG)
+![Coming Soon mobile](docs/readme_images/Coming_soon_mobile.PNG)
 
 <br><br>
 
