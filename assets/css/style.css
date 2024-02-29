@@ -272,7 +272,7 @@ main {
   padding: 10px 10px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid ##333333;
+  border: 1px solid #333333;
   border-radius: 4px;
   background-color: #333333;
   color: whitesmoke;
@@ -289,7 +289,7 @@ main {
   padding: 1em 1em;
   margin: 4px 2px;
   cursor: pointer;
-  font-family: 'Bitter', serif;'
+  font-family: 'Bitter', serif;
   font-size: 1em;
   text-shadow: 1px 1px 1px black;
 }

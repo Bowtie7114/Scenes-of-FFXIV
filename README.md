@@ -170,6 +170,7 @@ Initial validation with the [W3C Validator](https://validator.w3.org/#validate_b
 ![Validator La Noscea](docs/readme_images/Validator_noscea.png)
 ![Validator Shroud](docs/readme_images/Validator_shroud.png)
 ![Validator Coming Soon](docs/readme_images/Validator_soon.png)
+![Validator Thank You](docs/readme_images/Validator_thanks.PNG)
 ![Validator 404](docs/readme_images/Validator_404.png)
 
 Initial validation with the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) flagged a number of mistakes seen below. These were corrected and validator passed on second run.
