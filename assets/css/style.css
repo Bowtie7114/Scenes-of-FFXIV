@@ -258,6 +258,46 @@ main {
   color: inherit;
 }
 
+#form h3 {
+  font-size: 2em;
+}
+
+#newsletter {
+  font-family: 'Bitter', serif;
+  text-shadow: 1.5px 1.5px 1.5px black;
+}
+
+#newsletter input[type=text], #newsletter input[type=email], #newsletter input[type=tel] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ##333333;
+  border-radius: 4px;
+  background-color: #333333;
+  color: whitesmoke;
+  font-size: 1em;
+  font-family: 'Bitter', serif;
+  box-sizing: border-box;
+}
+
+#submit {
+  background-color: #333333;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  color: white;
+  padding: 1em 1em;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Bitter', serif;'
+  font-size: 1em;
+  text-shadow: 1px 1px 1px black;
+}
+
+input[type="radio"] {
+  margin-left: 5px;
+}
+
 /* Footer */
 footer {
   background-color: #333333;
@@ -385,6 +425,21 @@ footer {
     width: 100%;
     max-width: 400px;
   }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #newsletter {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }  
   
   /* Footer - Media */
 
@@ -473,6 +528,10 @@ footer {
   .third-div {
     column-count: 2;
   }
+
+  #newsletter {
+    width: 30%;
+  }  
 
   /* Footer - Media */
 
