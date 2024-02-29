@@ -47,6 +47,33 @@
       </div>
       <div id="coming-soon-text">
         <p>This page is being synthesised. Please check back soon!</p>
+        <br>
+        <p>Sign up to our newsletter for updates on Scenes of FFXIV, like new pages being added, events, and more!</p>
+        <br><br>
+      </div>
+      <div id="form">
+        <form id="newsletter" action="thanks.html">
+          <h3>Sign up here</h3>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required><br>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required><br>
+          <label for="number">Phone Number</label>
+          <input type="tel" id="number" name="number"><br><br>
+
+          <div class="radio-buttons">
+              <div>
+                <p>Please select whether you want to receive updates via just email, or email and text.</p>
+                <label for="email_only">Email Only</label>
+                <input type="radio" name="preference" id="email_only" value="email_only" required checked>
+              </div>
+              <div>
+                <label for="both">Email and Text</label>
+                <input type="radio" name="preference" id="both" value="both" required>
+              </div>
+            </div>
+          <button type="submit" class="join-button">Sign Up</button>
+        </form>
       </div>
     </div>
   </main>
