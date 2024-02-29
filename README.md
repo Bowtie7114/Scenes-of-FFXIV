@@ -160,7 +160,16 @@ After manual testing, the site was navigable using only keyboard and only mouse,
 
 ### Functional Testing ###
 
-All page links were tested thoroughly throughout development, and again by multiple test users by selecting each link on each page individually. This includes the page links and the external social media sites and store pages in the footer.
+All page links were tested thoroughly throughout development, and again by multiple test users by selecting each link on each page individually. All links routed to the correct pages as expected throughout.
+
+| Navigation Link  | Page to Load     |
+| ---------------- | ---------------- |
+| Scenes of FFXIV  | index.html       |
+| Home             | index.html       |
+| Thanalan         | thanalan.html    |
+| La Noscea        | la-noscea.html   |
+| The Black Shroud | shroud.html      |
+| Coming Soon!     | coming-soon.html |
 
 ### Validator Testing ###
 Initial validation with the [W3C Validator](https://validator.w3.org/#validate_by_uri) found a number of errors and warnings to resolve in the HTML relating to stray end tags for the i attributes from font-awesome. Upon correct these, no further errors were noted:
