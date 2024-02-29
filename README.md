@@ -171,9 +171,93 @@ All page links were tested thoroughly throughout development, and again by multi
 | The Black Shroud | shroud.html      |
 | Coming Soon!     | coming-soon.html |
 
+The various footer icons obtained from FontAwesome were all tested on each webpage to ensure that they functioned correctly. The expected behaviour is that they are to open a new tab and open to the following pages in order from left to right:
+- [Facebook](https://www.facebook.com/) Login page/Homepage if logged in
+- [Instagram](https://www.instagram.com/) Login page/Homepage if logged in
+- Reddit FFXIV Subreddit: [r/FFXIV](https://www.reddit.com/r/ffxiv/)
+- [Discord](https://www.discord.com/) Homepage
+- [Steam FFXIV Store Page](https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/)
+- [Final Fantasy XIV Homepage](https://www.finalfantasyxiv.com/)
+
+Upon testing each icon on each page individually, these are all working as expected.
+
 #### Form Testing ####
 
+The form on the Coming soon page is very basic due to intended features only being available through JavaScript, namely attaching a pop-up to the required fields in the form of red asterisks and an optional telephone number field that would become required should a radio button for both Email and Text news selected. As such, Name and Email are both requried fields.
 
+It was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+
+_Scenario One - Correct Inputs_
+
+Steps:
+
+1. Navigate to [Coming Soon page](https://bowtie7114.github.io/Scenes-of-FFXIV/coming-soon.html)
+2. Scroll down to the form and input the following data:
+   - Name: Jordan
+   - Email Address: jordan.cook@fake.com
+3. Click Submit
+
+Expected:
+
+The form submits without any errors and successfully redirects to thanks.html.
+
+Actual:
+
+Website behaved as expected.
+
+_Scenario Two - Missing Required Field Name_
+
+Steps:
+
+1. Navigate to [Coming Soon page](https://bowtie7114.github.io/Scenes-of-FFXIV/coming-soon.html)
+2. Scroll down to the form and input the following data:
+   - Name:
+   - Email Address: jordan.cook@fake.com
+3. Click Submit
+
+Expected Result:
+
+An Error is displayed informing the user that the Name field is required, and it does not submit.
+
+Result:
+
+Error message was displayed to fill out the Name field and the form did not submit.
+
+_Scenario Three - Missing Required Field Email_
+
+Steps:
+
+1. Navigate to [Coming Soon page](https://bowtie7114.github.io/Scenes-of-FFXIV/coming-soon.html)
+2. Scroll down to the form and input the following data:
+   - Name: Jordan
+   - Email Address:
+3. Click Submit
+
+Expected:
+
+An Error is displayed informing the user that the Email field is required, and it does not submit.
+
+Actual:
+
+Error message was displayed to fill out the Email field and the form did not submit.
+
+_Scenario Four - Incorrect email format_
+
+Steps to test:
+
+1. Navigate to [Coming Soon page](https://bowtie7114.github.io/Scenes-of-FFXIV/coming-soon.html)
+2. Scroll down to the form and input the following data:
+   - Name: Jordan
+   - Email Address: jordan.
+3. Click Submit
+
+Expected:
+
+An Error is displayed informing the user that they need to enter a valid email address, and the form fails to submit.
+
+Actual:
+
+Error message was displayed to enter a valid email address and the form did not submit.
 
 ### Validator Testing ###
 Initial validation with the [W3C Validator](https://validator.w3.org/#validate_by_uri) found a number of errors and warnings to resolve in the HTML relating to stray end tags for the i attributes from font-awesome. Upon correct these, no further errors were noted:
