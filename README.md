@@ -151,13 +151,24 @@ The following criteria was met following testing with the Wave Accessibility too
 After manual testing, the site was navigable using only keyboard and only mouse, respectively, on Mozilla Firefox, Google Chrome, Microsoft Edge, and Safari.
 
 ### Lighthouse Testing ###
-
+Initial Lighthouse testing was performed using Google Chrome, and showed low performance (between 65 and 89) due to image sizes. Accessibility was also at 94 across the board. Lighthouse testing was done again upon in the UK and accessiblity was 100 without additional changes. It could be related to language differences in the browser/systems used at the time. <br><br>
+Content images were made smaller in terms of resolution (1600px by 900px), converted to webp, and then run through tinypng.com to improve performance. Significant increases were observed. <br><br>
+Previous values:
 ![Lighthouse Homepage](docs/readme_images/Lighthouse_Homepage.png)
 ![Lighthouse Thanalan page](docs/readme_images/Lighthouse_Thanalan.png)
 ![Lighthouse La Noscea page](docs/readme_images/Lighthouse_Noscea.png)
 ![Lighthouse Black Shroud page](docs/readme_images/Lighthouse_Shroud.png)
 ![Lighthouse Coming Soon page](docs/readme_images/Lighthouse_Soon.png)
-
+<br><br>
+New values:
+![Lighthouse Homepage](docs/readme_images/Lighthouse_Homepage2.PNG)
+![Lighthouse Thanalan page](docs/readme_images/Lighthouse_Thanalan2.PNG)
+![Lighthouse La Noscea page](docs/readme_images/Lighthouse_Noscea2.PNG)
+![Lighthouse Black Shroud page](docs/readme_images/Lighthouse_Shroud2.PNG)
+![Lighthouse Coming Soon page](docs/readme_images/Lighthouse_Soon.PNG)
+![Lighthouse Thank You page](docs/readme_images/Lighthouse_Thanks.PNG)
+![Lighthouse 404 page](docs/readme_images/Lighthouse_404.PNG)
+<br><br>
 ### Functional Testing ###
 #### Navigational Links ####
 All page links were tested thoroughly throughout development, and again by multiple test users by selecting each link on each page individually. All links routed to the correct pages as expected throughout.
