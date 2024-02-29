@@ -53,7 +53,7 @@ The content pages contain a sub-heading, and introduction to the area, and then 
 <br><br>
 
 ### Coming Soon page: ###
-There is a Coming Soon page with a small section of text explaining that more content is on the way, and a Lalafell Alchemist performing experiments, for visual flair. Next to this there is a form allowing the user to sign up to a newsletter containing updates on the site. This will send the user to the Thank You page upon successful submission.
+There is a Coming Soon page with a small section of text explaining that more content is on the way, and a Lalafell Alchemist performing experiments, for visual flair. Next to this there is a basic form allowing the user to sign up to a newsletter containing updates on the site. This will send the user to the Thank You page upon successful submission.
 
 <br>
 
@@ -159,7 +159,7 @@ After manual testing, the site was navigable using only keyboard and only mouse,
 ![Lighthouse Coming Soon page](docs/readme_images/Lighthouse_Soon.png)
 
 ### Functional Testing ###
-
+#### Navigational Links ####
 All page links were tested thoroughly throughout development, and again by multiple test users by selecting each link on each page individually. All links routed to the correct pages as expected throughout.
 
 | Navigation Link  | Page to Load     |
@@ -170,6 +170,10 @@ All page links were tested thoroughly throughout development, and again by multi
 | La Noscea        | la-noscea.html   |
 | The Black Shroud | shroud.html      |
 | Coming Soon!     | coming-soon.html |
+
+#### Form Testing ####
+
+
 
 ### Validator Testing ###
 Initial validation with the [W3C Validator](https://validator.w3.org/#validate_by_uri) found a number of errors and warnings to resolve in the HTML relating to stray end tags for the i attributes from font-awesome. Upon correct these, no further errors were noted:
